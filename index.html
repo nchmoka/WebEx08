@@ -74,7 +74,7 @@
                 }
 
                 componentDidMount() {
-                    const limit = 8; // 8 pics;
+                    const limit = 6; // 8 pics;
                     fetch("https://picsum.photos/v2/list?limit=" + limit)
                         .then((response) => response.json())
                         .then((data) => {
